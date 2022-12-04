@@ -76,15 +76,15 @@ function GetKnifes(){
             let KnifeAvailability = $("<small></small>").addClass('text-success mb-3').text("В наличии");
             KnifeBody.append(KnifeAvailability);
         }
-        if(iterator['knifeSteelHardness'] != "no"){
+        
             KnifeBody.append(KnifeSteelHardness);
-        }
-        if(iterator['knifeSteelGrade'] != "no"){
+        
+        
             KnifeBody.append(KnifeSteelGrade);
-        }
-        if(iterator['knifeLiningMaterial'] != "no"){
+        
+        
             KnifeBody.append(KnifeLiningMaterial);
-        }
+        
         KnifeBody.append(KnifeCost);
         if(iterator['knifeStock'] <= 0){
             KnifeCost.css('color', 'gray');
