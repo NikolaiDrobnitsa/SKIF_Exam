@@ -137,49 +137,20 @@ var tokenKey = "accessToken";
 
 document.addEventListener('DOMContentLoaded', (e) => {
 
-        // $("#typeCheckBox").change(()=>{
-        //     SelectCheckBox();
-        // });
+        
         
         $("#BtnSingIn").click(()=>{
             document.location.href = "reg/login.html";
 
         });
         
-        // $("#buttonLogOut").click(()=>{
-        //     Exit();
-        //     sessionStorage.removeItem(tokenKey);
-        //     GetProducts();
-        // });
- 
-        // $("#buttonSignIn").click(()=>{
-        //     SignIn();
-
-        // });
-
-        // $("#buttonLoginClose").click(()=>{
-        //     CloseSignIn();
-        // });
+        
 
         $("#buttonAddProduct").click(()=>{
             AddProduct();
         });
 
-        // $("#button__filter").click(()=>{
-        //     let minPrice = $("#input__min-price").val();
-        //     let maxPrice = $("#input__max-price").val();
-
-        //     if(minPrice > 0) min = minPrice;
-        //     else min = 0;
-
-        //     if(maxPrice > 0 && maxPrice < 100000) max = maxPrice;
-        //     else max = 100000;
-
-        //     page = 1;
-        //     GetPages();
-        //     if(isLogin)AdminGetProducts();
-        //     else GetProducts();
-        // });
+        
 
 
         
