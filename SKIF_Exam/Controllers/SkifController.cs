@@ -43,14 +43,7 @@ namespace SKIF_Exam.Controllers
             else return products / 6 + 1;
         }
 
-        //[HttpGet]
-        //[Route("KnifeDetail")]
-        //public async Task<ActionResult<Knife>> KnifeDetail(int id)
-        //{
-        //    Knife? knife = await _context.Knifes.FindAsync(id);
-        //    if (knife == null) return NotFound();
-        //    else return knife;
-        //}
+        
 
         [HttpPost, Authorize]
         [Route("CreateKnife")]
@@ -78,27 +71,6 @@ namespace SKIF_Exam.Controllers
             return Ok();
         }
 
-        //[HttpPost]
-        //[Route("UpdateKnife")]
-        //public async Task<ActionResult> Update([FromForm] Skif knife)
-        //{
-        //    if (!TryValidateModel(knife, nameof(Skif)))
-        //        return BadRequest();
-        //    ModelState.ClearValidationState(nameof(Skif));
-        //    var knifeData = await _context.skifs.FindAsync(knife.Id);
-        //    if (knifeData == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    knifeData.KnifeName = knife.KnifeName;
-        //    knifeData.KnifeCost = knife.KnifeCost;
-        //    knifeData.KnifeStock = knife.KnifeStock;
-        //    knifeData.KnifeSteelHardness = knife.KnifeSteelHardness;
-        //    knifeData.KnifeSteelGrade = knife.KnifeSteelGrade;
-        //    knifeData.KnifeLiningMaterial = knife.KnifeLiningMaterial;
-        //    knifeData.KnifeImgUrl = knife.KnifeImgUrl;
-        //    await _context.SaveChangesAsync();
-        //    return Ok();
-        //}
+       
     }
 }
