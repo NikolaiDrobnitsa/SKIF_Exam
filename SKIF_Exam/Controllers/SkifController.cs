@@ -21,7 +21,7 @@ namespace SKIF_Exam.Controllers
         public async Task<ActionResult<IEnumerable<Skif>>> Get(int page)
         {
             List<Skif> list = await _context.skifs.ToListAsync();
-            //list = list.Where(item => item.KnifeName.ToLower().Contains(category.ToLower()) && item.KnifeCost >= min && item.KnifeCost <= max).ToList();
+            
             List<Skif> pageList = new();
 
             for (int i = 0; i < list.Count; i++)
