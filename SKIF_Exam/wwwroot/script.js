@@ -142,7 +142,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
         // });
         
         $("#BtnSingIn").click(()=>{
-            
+            document.location.href = "reg/login.html";
+
         });
         
         // $("#buttonLogOut").click(()=>{
