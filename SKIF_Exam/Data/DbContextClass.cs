@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SKIF_Exam.Models;
 
 namespace SKIF_Exam.Data
 {
@@ -9,8 +10,7 @@ namespace SKIF_Exam.Data
         {
             Configuration = configuration;
         }
-        //public DbSet<Product> Products { get; set; }
-        //public DbSet<Login> Logins { get; set; }
+   
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
@@ -21,6 +21,8 @@ namespace SKIF_Exam.Data
                 .Build().GetConnectionString("DefaultConnection");
             options.UseSqlServer(str);
         }
+        public DbSet<Skif> skifs { get; set; }
+        public DbSet<User> users { get; set; }
     }
     
 }

@@ -1,0 +1,89 @@
+#topHeader{
+  font-family: 'oswald',sans-serif;
+}
+
+.font-oswald{
+  font-family: 'oswald',sans-serif;
+}
+.font-ibm{
+  font-family: 'ibm plex sans',sans-serif;
+}
+.font-ibm_head{
+  font-family: 'ibm plex sans',sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.basket_size{
+  width: 12%;
+  object-fit: contain;
+ 
+}
+.search_size{
+  width: 10%;
+  object-fit: contain;
+
+ 
+}
+.div__last_page{
+  font-family: 'ibm plex sans';
+  font-size: 12px;
+  
+}
+.header__img{
+  background-image: url('..//img/Border.jpg');
+  height: 248px; 
+}
+.button__call {
+    background-color: transparent;
+  }
+  .button__call:hover {
+    background-color: white;
+  }
+  .Div__Btn{
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .Div__Btn:hover {
+   color: #ff6b00;
+  } 
+  .Div__Btn-black{
+    cursor: pointer;
+  }
+  .Div__Btn-black:hover {
+   color: #ff6b00;
+   text-decoration: underline;
+  } 
+
+.input__search {
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    height: 28px;
+    background: transparent; 
+    border: none; 
+    outline:none;
+}
+.button__style{
+  font-family: 'oswald',sans-serif;
+  border: none;
+  background-color: #ff6b00;
+  color: white;
+  font-size: 14px;
+  width: 70px;
+  height: 32px;
+}
+.button__style:hover{
+  background-color: #f32828;
+}
+.article{
+  font-family: 'ibm plex sans';
+  font-size: 16px;
+  line-height: 26px;
+}
+.article p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
